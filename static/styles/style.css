@@ -1,0 +1,145 @@
+.tex_0 {position: absolute;
+    width: 711px;
+    height: 240px;
+    left: 221px;
+    top: 327px;
+    
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    /* or 111% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.tex_1 {
+    position: absolute;
+    width: 549px;
+    height: 61px;
+    left: 221px;
+    top: 632px;
+    
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 0px 0px #000000;
+}
+
+.but_Har{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+    color: #462929;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: calc(50% - 110px/2 - 647px);
+    top: 762px;
+
+    background: #B09A81;
+    border-radius: 8px;
+
+    
+}
+
+.long{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 39px 221px;
+    gap: 33px;
+    position: absolute;
+    height: 104px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #000000;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+}
+.Logo_Harry{
+    position: absolute;
+    left: 40px;
+    right: 1751px;
+    top: 14.5px;
+    bottom: 10.04px;
+
+}
+
+.Main_tex_1{
+width: 78px;
+height: 26px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* input color */
+
+color: #B09A81;
+
+text-shadow: 0px 0px 0px #000000;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Main_tex_2{
+    width: 111px;
+    height: 26px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    display: flex;
+    align-items: center;
+
+    color: #B09A81;
+
+    text-shadow: 0px 0px 0px #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Harry_screen{
+    position: absolute;
+    width: 1920px;
+    height: 980px;
+    left: 0px;
+    top: 100px;
+    
+    background: url(bg_1.png);
+}
